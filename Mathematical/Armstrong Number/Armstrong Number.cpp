@@ -9,7 +9,7 @@ int main() {
 	    cin>>n;
 	    temp=n;
 	    while(temp!=0){
-	        rem=n%10;
+	        rem=temp%10;
 	        result +=rem*rem*rem;
 	        temp=temp/10;
 	    }
